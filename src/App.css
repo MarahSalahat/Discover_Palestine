@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #030000;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-image: url('../public/images/embroideryPattern.jpg');
+  background-repeat: repeat-x;
+  background-size: 33% 100%;
+  background-position: top left, top center, top right;
+  height: 80px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 7px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; 
+ 
+}
+
+nav a,
+header button {
+  color: red;
+  background-color: transparent;
+  border: none;
+  padding: 5px 5px; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer; 
+}
+
+nav a:hover,
+header button:hover {
+  color: #bb8080; 
+}
+
+main {
+  padding: 20px;
+}
+
+
+.quote {
+  font-size: 2.2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  background: linear-gradient(90deg, #ff0000, #ffffff, #008000);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s linear infinite;
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+
+
+.map-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.palestine-map {
+  max-width: 80%;
+  height: 520px;
+  border-radius: 10px;
+}

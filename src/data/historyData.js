@@ -1,0 +1,111 @@
+// src/data/historyData.js
+const historyData = [
+    {
+      id: 1,
+      titleKey: "history.ancient.title",
+      dateKey: "history.ancient.date",
+      detailsKey: "history.ancient.details",
+      linkKey: "history.ancient.link", 
+    },
+    {
+      id: 2,
+      titleKey: "history.egyptianAssyrian.title",
+      dateKey: "history.egyptianAssyrian.date",
+      detailsKey: "history.egyptianAssyrian.details",
+      linkKey: "history.egyptianAssyrian.link", 
+    },
+    {
+      id: 3,
+      titleKey: "history.israeliteKingdoms.title",
+      dateKey: "history.israeliteKingdoms.date",
+      detailsKey: "history.israeliteKingdoms.details",
+      linkKey: "history.israeliteKingdoms.link", 
+    },
+    {
+      id: 4,
+      titleKey: "history.persianPeriod.title",
+      dateKey: "history.persianPeriod.date",
+      detailsKey: "history.persianPeriod.details",
+      linkKey: "history.persianPeriod.link", 
+    },
+    {
+      id: 5,
+      titleKey: "history.hellenisticPeriod.title",
+      dateKey: "history.hellenisticPeriod.date",
+      detailsKey: "history.hellenisticPeriod.details",
+      linkKey: "history.hellenisticPeriod.link", 
+    },
+    {
+      id: 6,
+      titleKey: "history.romanByzantine.title",
+      dateKey: "history.romanByzantine.date",
+      detailsKey: "history.romanByzantine.details",
+      linkKey: "history.romanByzantine.link", 
+    },
+    {
+      id: 7,
+      titleKey: "history.earlyIslamic.title",
+      dateKey: "history.earlyIslamic.date",
+      detailsKey: "history.earlyIslamic.details",
+      linkKey: "history.earlyIslamic.link", 
+    },
+    {
+      id: 8,
+      titleKey: "history.crusaderAyyubid.title",
+      dateKey: "history.crusaderAyyubid.date",
+      detailsKey: "history.crusaderAyyubid.details",
+      linkKey: "history.crusaderAyyubid.link", 
+    },
+    {
+      id: 9,
+      titleKey: "history.mamlukPeriod.title",
+      dateKey: "history.mamlukPeriod.date",
+      detailsKey: "history.mamlukPeriod.details",
+      linkKey: "history.mamlukPeriod.link", 
+    },
+    {
+      id: 10,
+      titleKey: "history.ottomanRule.title",
+      dateKey: "history.ottomanRule.date",
+      detailsKey: "history.ottomanRule.details",
+      linkKey: "history.ottomanRule.link", 
+    },
+    {
+      id: 11,
+      titleKey: "history.britishMandate.title",
+      dateKey: "history.britishMandate.date",
+      detailsKey: "history.britishMandate.details",
+      linkKey: "history.britishMandate.link", 
+    },
+    {
+      id: 12,
+      titleKey: "history.nakba.title",
+      dateKey: "history.nakba.date",
+      detailsKey: "history.nakba.details",
+      linkKey: "history.nakba.link", 
+    },
+    {
+      id: 13,
+      titleKey: "history.naksa.title",
+      dateKey: "history.naksa.date",
+      detailsKey: "history.naksa.details",
+      linkKey: "history.naksa.link", 
+    },
+    {
+      id: 14,
+      titleKey: "history.gazaWars.title",
+      dateKey: "history.gazaWars.date",
+      detailsKey: "history.gazaWars.details",
+      linkKey: "history.gazaWars.link", 
+    },
+    {
+      id: 15,
+      titleKey: "history.modernEra.title",
+      dateKey: "history.modernEra.date",
+      detailsKey: "history.modernEra.details",
+      linkKey: "history.modernEra.link", 
+    },
+  ];
+  
+  export default historyData;
+  
