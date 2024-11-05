@@ -129,7 +129,38 @@
       "title": "Clothing",
       "description": "Traditional Palestinian clothing varies by region, featuring intricate embroidery and patterns. The thobe for women and the keffiyeh for men are iconic garments that symbolize Palestinian identity."
     }
+  },
+  "artsData": {
+  "embroidery": {
+    "title": "Embroidery (Tatreez)",
+    "description": "Traditional Palestinian embroidery with unique patterns symbolizing cultural identity."
+  },
+  "dabke": {
+    "title": "Dabke Dance",
+    "description": "A traditional folk dance celebrating unity and performed at festive gatherings."
+  },
+  "ceramics": {
+    "title": "Ceramics and Pottery",
+    "description": "Hand-crafted ceramics showcasing Palestinian artistry with intricate designs."
+  },
+  "calligraphy": {
+    "title": "Arabic Calligraphy",
+    "description": "Artistic Arabic script that reflects the beauty of language through visual expression."
+  },
+  "oliveWood": {
+    "title": "Olive Wood Carving",
+    "description": "Carvings from local olive wood, showcasing detailed artisanship unique to Palestine."
+  },
+  "glassBlowing": {
+    "title": "Glass Blowing",
+    "description": "Traditional glasswork creating colorful items using recycled materials."
+  },
+  "musicPoetry": {
+    "title": "Music and Poetry",
+    "description": "Traditional music and poetry that expresses Palestinian heritage and identity."
   }
+}
+
   
   
 }

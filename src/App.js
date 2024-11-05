@@ -7,9 +7,10 @@ import Home from './pages/Home';
 import History from './pages/History';
 import Culture from './pages/Culture';
 import Literature from './pages/Literature';
-import Arts from './pages/Arts';
+import Arts from './pages/CommonArts';
 import UserReflections from './pages/UserReflections';
 import './App.css';
+import CommonArts from './pages/CommonArts';
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -35,8 +36,8 @@ function App() {
           <Link to="/">{t('home')}</Link>  {/* Home Link */}
           <Link to="/history">{t('history1')}</Link>
           <Link to="/culture">{t('culture1')}</Link>
-          <Link to="/literature">{t('literature')}</Link>
           <Link to="/arts">{t('arts')}</Link>
+          <Link to="/literature">{t('literature')}</Link>
           <Link to="/user-reflections">{t('userReflections')}</Link>
         </nav>
       </header>
@@ -44,11 +45,11 @@ function App() {
       <main>
         {/* Routes */}
         <Routes>
-          <Route path="/" element={<Home />} /> {/* Home Route */}
+          <Route path="/" element={<Home />} /> 
           <Route path="/history" element={<History />} />
           <Route path="/culture" element={<Culture />} />
           <Route path="/literature" element={<Literature />} />
-          <Route path="/arts" element={<Arts />} />
+          <Route path="/arts" element={<CommonArts />} />
           <Route path="/user-reflections" element={<UserReflections />} />
         </Routes>
       </main>
