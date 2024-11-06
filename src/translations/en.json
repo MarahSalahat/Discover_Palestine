@@ -130,37 +130,85 @@
       "description": "Traditional Palestinian clothing varies by region, featuring intricate embroidery and patterns. The thobe for women and the keffiyeh for men are iconic garments that symbolize Palestinian identity."
     }
   },
-  "artsData": {
-  "embroidery": {
-    "title": "Embroidery (Tatreez)",
-    "description": "Traditional Palestinian embroidery with unique patterns symbolizing cultural identity."
-  },
-  "dabke": {
-    "title": "Dabke Dance",
-    "description": "A traditional folk dance celebrating unity and performed at festive gatherings."
-  },
-  "ceramics": {
-    "title": "Ceramics and Pottery",
-    "description": "Hand-crafted ceramics showcasing Palestinian artistry with intricate designs."
-  },
-  "calligraphy": {
-    "title": "Arabic Calligraphy",
-    "description": "Artistic Arabic script that reflects the beauty of language through visual expression."
-  },
-  "oliveWood": {
-    "title": "Olive Wood Carving",
-    "description": "Carvings from local olive wood, showcasing detailed artisanship unique to Palestine."
-  },
-  "glassBlowing": {
-    "title": "Glass Blowing",
-    "description": "Traditional glasswork creating colorful items using recycled materials."
-  },
-  "musicPoetry": {
-    "title": "Music and Poetry",
-    "description": "Traditional music and poetry that expresses Palestinian heritage and identity."
-  }
-}
 
   
+  "artsData": {
+    "embroidery": {
+      "title": "Embroidery (Tatreez)",
+      "description": "Traditional Palestinian embroidery with unique patterns symbolizing cultural identity."
+    },
+    "dabke": {
+      "title": "Dabke Dance",
+      "description": "A traditional folk dance celebrating unity and performed at festive gatherings."
+    },
+    "ceramics": {
+      "title": "Ceramics",
+      "description": "Hand-crafted ceramic pieces showcasing Palestinian artistry and intricate designs."
+    },
+    "pottery": {
+      "title": "Pottery",
+      "description": "Traditional Palestinian pottery known for its cultural symbolism and craftsmanship."
+    },
+    "calligraphy": {
+      "title": "Arabic Calligraphy",
+      "description": "Artistic Arabic script that reflects the beauty of language through visual expression."
+    },
+    "oliveWood": {
+      "title": "Olive Wood Carving",
+      "description": "Carvings from local olive wood, showcasing detailed artisanship unique to Palestine."
+    },
+    "glassBlowing": {
+      "title": "Glass Blowing",
+      "description": "Traditional glasswork creating colorful items using recycled materials."
+    },
+    "music": {
+      "title": "Music",
+      "description": "Traditional music that expresses Palestinian heritage and identity."
+    }
+  },
+
   
+  "literatureData": {
+      "popularWritersTitle": "Popular Writers",
+      "close": "Close",
+      "books": "Books",
+      "quotesFromBook": "Quotes from this book",
+  
+      "quotes": [
+        { "text": "Palestine is not just a place, it is a soul, a heartbeat of resistance.", "author": "Mahmoud Darwish" },
+        { "text": "We will return to the homeland, for it is in our blood and bones.", "author": "Ghassan Kanafani" },
+        { "text": "The land is our only heritage, and no one can take it from us.", "author": "Rashid Khalidi" }
+      ],
+  
+      "writers": {
+        "darwish": {
+          "name": "Mahmoud Darwish",
+          "shortBio": "A prominent Palestinian poet known for his writings on homeland and resistance.",
+          "fullBio": "Mahmoud Darwish is considered one of the most influential poets of modern Arabic literature. His work often reflects the themes of homeland, identity, and resistance.",
+          "book1": {
+            "title": "Memory for Forgetfulness",
+            "description": "A poetic memoir about the Lebanese Civil War and Darwish's reflections.",
+            "detailedDescription": "This book is a mix of personal narrative and poetic reflection, exploring Darwish's life and his relationship with his homeland.",
+            "quote1": "To be Palestinian is to know waiting, exodus, and return.",
+            "quote2": "The siege is not a siege; it is a life of resilience."
+          }
+        },
+        "kanafani": {
+          "name": "Ghassan Kanafani",
+          "shortBio": "A Palestinian writer and political activist known for his novels and short stories.",
+          "fullBio": "Ghassan Kanafani was a Palestinian writer and journalist, known for his advocacy for Palestinian rights and his short stories that reflect the plight of Palestinian refugees.",
+          "book1": {
+            "title": "Men in the Sun",
+            "description": "A powerful story about three Palestinian men on a journey to Kuwait.",
+            "detailedDescription": "This novel is a poignant exploration of the struggles of Palestinian refugees as they journey for a better life.",
+            "quote1": "The real tragedy is not in the journey, but in the silence that surrounds it.",
+            "quote2": "Do not cry out in despair when it is silence that should break the ground."
+          }
+        }
+      }
+    }
+  
+  
+
+
 }

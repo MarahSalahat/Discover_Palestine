@@ -30,7 +30,7 @@ nav {
 
 nav a,
 header button {
-  color: red;
+  color: #701616;
   background-color: transparent;
   border: none;
   padding: 5px 5px; 
@@ -51,7 +51,7 @@ main {
 
 
 .quote {
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: bold;
   text-align: center;
   margin: 20px 0;

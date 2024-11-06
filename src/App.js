@@ -7,7 +7,6 @@ import Home from './pages/Home';
 import History from './pages/History';
 import Culture from './pages/Culture';
 import Literature from './pages/Literature';
-import Arts from './pages/CommonArts';
 import UserReflections from './pages/UserReflections';
 import './App.css';
 import CommonArts from './pages/CommonArts';
