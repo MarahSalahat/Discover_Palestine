@@ -10,7 +10,7 @@ const literatureData = {
         nameKey: "literatureData.writers.darwish.name",
         shortBioKey: "literatureData.writers.darwish.shortBio",
         fullBioKey: "literatureData.writers.darwish.fullBio",
-        imageUrl: "images/darwish.jpg",
+        imageUrl: "images/darwish.jpeg",
         books: [
           {
             titleKey: "literatureData.writers.darwish.book1.title",

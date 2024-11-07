@@ -4,60 +4,104 @@
     background-color: #f9f9f9;
   }
   
-  h2 {
-    text-align: center;
-    color: #701616;
-    font-size: 2rem;
-  }
+ 
   
   section {
     margin-top: 40px;
   }
   
-  .quotes-section {
-    background-color: #a57b7b;
-    padding: 30px;
-    border-radius: 8px;
-    animation: fadeIn 1s ease-in-out;
-  }
-  
-  .quotes-title {
-    font-size: 2rem;
-    color: #0c0c0c;
-    text-align: center;
-  }
-  
-  .quote-display {
+ 
+.quotes-section {
+    background: linear-gradient(135deg, #701616, #a83232); 
+    padding: 40px;
+    width: 60%;
+    margin: 0 auto; 
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-top: 20px;
-  }
-  
-  .quote-text {
-    font-size: 2rem;
-    font-style: italic;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); 
+    animation: fadeIn 1s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.quotes-section::before, .quotes-section::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1); 
+    pointer-events: none;
+    transform: scale(1);
+    animation: float 6s infinite ease-in-out;
+}
+
+.quotes-section::before {
+    top: -40px;
+    left: -40px;
+}
+
+.quotes-section::after {
+    bottom: -40px;
+    right: -40px;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(15px) scale(1.1); }
+}
+
+
+.quote-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
     text-align: center;
-    color: #0a0a0a;
-    max-width: 600px;
-    transition: opacity 1s ease;
-  }
-  
-  .quote-author {
-    font-size: 1rem;
-    text-align: right;
-    color: #181717;
+}
+
+.quote-text {
+    font-size: 1.8rem;
     font-style: italic;
-    margin-top: 10px;
+    color: #fff;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
     transition: opacity 1s ease;
-  }
-  
-  /* Fade-in Effect */
-  @keyframes fadeIn {
+}
+
+
+.quote-author {
+    font-size: 1.2rem;
+    color: #f1e4e4;
+    margin-top: 15px;
+    font-weight: bold;
+    position: relative;
+    transition: opacity 1s ease;
+}
+
+.quote-author::before {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #f1e4e4;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+@keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
-  }
+}
+
   
   .writers-section {
     display: flex;
