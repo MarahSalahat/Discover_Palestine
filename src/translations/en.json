@@ -171,7 +171,7 @@
   "literatureData": {
       "popularWritersTitle": "Popular Writers",
       "close": "Close",
-      "books": "Books",
+      "books": "Writings",
       "quotesFromBook": "Quotes from this book",
   
       "quotes": [
@@ -184,10 +184,18 @@
         "darwish": {
           "name": "Mahmoud Darwish",
           "shortBio": "A prominent Palestinian poet known for his writings on homeland and resistance.",
-          "fullBio": "Mahmoud Darwish is considered one of the most influential poets of modern Arabic literature. His work often reflects the themes of homeland, identity, and resistance.",
+          "fullBio": "Mahmoud Darwish (1941–2008) is widely regarded as the national poet of Palestine. His poetry delves into themes of exile, identity, and the Palestinian experience, often merging personal and collective memories in powerful, evocative language.",
+
           "book1": {
             "title": "Memory for Forgetfulness",
             "description": "A poetic memoir about the Lebanese Civil War and Darwish's reflections.",
+            "detailedDescription": "This book is a mix of personal narrative and poetic reflection, exploring Darwish's life and his relationship with his homeland.",
+            "quote1": "To be Palestinian is to know waiting, exodus, and return.",
+            "quote2": "The siege is not a siege; it is a life of resilience."
+          },
+          "book2": {
+            "title": "Identity Card",
+            "description": "A defining poem of Palestinian resistance.",
             "detailedDescription": "This book is a mix of personal narrative and poetic reflection, exploring Darwish's life and his relationship with his homeland.",
             "quote1": "To be Palestinian is to know waiting, exodus, and return.",
             "quote2": "The siege is not a siege; it is a life of resilience."

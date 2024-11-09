@@ -40,6 +40,96 @@ const literatureData = {
             ]
           }
         ]
+      },
+      {
+        id: 3,
+        nameKey: "literatureData.writers.darwish.name",
+        shortBioKey: "literatureData.writers.darwish.shortBio",
+        fullBioKey: "literatureData.writers.darwish.fullBio",
+        imageUrl: "images/darwish.jpeg",
+        books: [
+          {
+            titleKey: "literatureData.writers.darwish.book1.title",
+            descriptionKey: "literatureData.writers.darwish.book1.description",
+            detailedDescriptionKey: "literatureData.writers.darwish.book1.detailedDescription",
+            quotes: [
+              "literatureData.writers.darwish.book1.quote1",
+              "literatureData.writers.darwish.book1.quote2"
+            ]
+          }
+        ]
+      },
+      {
+        id: 4,
+        nameKey: "literatureData.writers.darwish.name",
+        shortBioKey: "literatureData.writers.darwish.shortBio",
+        fullBioKey: "literatureData.writers.darwish.fullBio",
+        imageUrl: "images/darwish.jpeg",
+        books: [
+          {
+            titleKey: "literatureData.writers.darwish.book1.title",
+            descriptionKey: "literatureData.writers.darwish.book1.description",
+            detailedDescriptionKey: "literatureData.writers.darwish.book1.detailedDescription",
+            quotes: [
+              "literatureData.writers.darwish.book1.quote1",
+              "literatureData.writers.darwish.book1.quote2"
+            ]
+          }
+        ]
+      },
+      {
+        id: 5,
+        nameKey: "literatureData.writers.darwish.name",
+        shortBioKey: "literatureData.writers.darwish.shortBio",
+        fullBioKey: "literatureData.writers.darwish.fullBio",
+        imageUrl: "images/darwish.jpeg",
+        books: [
+          {
+            titleKey: "literatureData.writers.darwish.book1.title",
+            descriptionKey: "literatureData.writers.darwish.book1.description",
+            detailedDescriptionKey: "literatureData.writers.darwish.book1.detailedDescription",
+            quotes: [
+              "literatureData.writers.darwish.book1.quote1",
+              "literatureData.writers.darwish.book1.quote2"
+            ]
+          }
+        ]
+      },
+      {
+        id: 6,
+        nameKey: "literatureData.writers.darwish.name",
+        shortBioKey: "literatureData.writers.darwish.shortBio",
+        fullBioKey: "literatureData.writers.darwish.fullBio",
+        imageUrl: "images/darwish.jpeg",
+        books: [
+          {
+            titleKey: "literatureData.writers.darwish.book1.title",
+            descriptionKey: "literatureData.writers.darwish.book1.description",
+            detailedDescriptionKey: "literatureData.writers.darwish.book1.detailedDescription",
+            quotes: [
+              "literatureData.writers.darwish.book1.quote1",
+              "literatureData.writers.darwish.book1.quote2"
+            ]
+          }
+        ]
+      },
+      {
+        id: 7,
+        nameKey: "literatureData.writers.darwish.name",
+        shortBioKey: "literatureData.writers.darwish.shortBio",
+        fullBioKey: "literatureData.writers.darwish.fullBio",
+        imageUrl: "images/darwish.jpeg",
+        books: [
+          {
+            titleKey: "literatureData.writers.darwish.book1.title",
+            descriptionKey: "literatureData.writers.darwish.book1.description",
+            detailedDescriptionKey: "literatureData.writers.darwish.book1.detailedDescription",
+            quotes: [
+              "literatureData.writers.darwish.book1.quote1",
+              "literatureData.writers.darwish.book1.quote2"
+            ]
+          }
+        ]
       }
     ]
   };

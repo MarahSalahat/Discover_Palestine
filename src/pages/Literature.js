@@ -13,7 +13,6 @@ function Literature() {
     const quoteInterval = setInterval(() => {
       setQuoteIndex((prevIndex) => (prevIndex + 1) % literatureData.quotes.length);
     }, 8000);
-
     return () => clearInterval(quoteInterval);
   }, []);
 
@@ -28,22 +27,26 @@ function Literature() {
 
   return (
     <div className="literature-page-container">
-     <section className="quotes-section">
-        <div className="quote-display">
-          <blockquote className="quote-text">
-            {t(`literatureData.quotes.${quoteIndex}.text`)}
-          </blockquote>
-          <p className="quote-author">
-            {t(`literatureData.quotes.${quoteIndex}.author`)}
-          </p>
-        </div>
-      </section>
+      <section className="quotes-section">
+        <div className="quote-display">
+          <blockquote className="quote-text">
+            {t(`literatureData.quotes.${quoteIndex}.text`)}
+          </blockquote>
+          <p className="quote-author">
+            {t(`literatureData.quotes.${quoteIndex}.author`)}
+          </p>
+        </div>
+      </section>
 
       <section className="writers-section">
         <h2>{t('literatureData.popularWritersTitle')}</h2>
-        <div className="writers-grid">
+        <div className="writers-horizontal-scroll">
           {literatureData.writers.map((writer) => (
-            <div key={writer.id} className="writer-card" onClick={() => handleWriterClick(writer)}>
+            <div
+              key={writer.id}
+              className="writer-card"
+              onClick={() => handleWriterClick(writer)}
+            >
               <img src={writer.imageUrl} alt={t(writer.nameKey)} className="writer-image" />
               <h3>{t(writer.nameKey)}</h3>
             </div>
@@ -54,7 +57,7 @@ function Literature() {
       {selectedWriter && (
         <section className="writer-details">
           <button className="close-btn" onClick={() => setSelectedWriter(null)}>
-            {t('literatureData.close')}
+            x
           </button>
           <div className="writer-details-content">
             <h2>{t(selectedWriter.nameKey)}</h2>
@@ -62,12 +65,14 @@ function Literature() {
             <p>{t(selectedWriter.fullBioKey)}</p>
 
             <h3>{t('literatureData.books')}</h3>
-            {selectedWriter.books.map((book, index) => (
-              <div key={index} className="book-detail" onClick={() => handleBookClick(book)}>
-                <h4>{t(book.titleKey)}</h4>
-                <p>{t(book.descriptionKey)}</p>
-              </div>
-            ))}
+            <div className="books-shelf">
+              {selectedWriter.books.map((book, index) => (
+                <div key={index} className="book-detail" onClick={() => handleBookClick(book)}>
+                  <h4>{t(book.titleKey)}</h4>
+                  <p>{t(book.descriptionKey)}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
       )}
@@ -75,7 +80,7 @@ function Literature() {
       {selectedBook && (
         <section className="book-details">
           <button className="close-btn" onClick={() => setSelectedBook(null)}>
-            {t('literatureData.close')}
+           x
           </button>
           <div className="book-details-content">
             <h2>{t(selectedBook.titleKey)}</h2>
