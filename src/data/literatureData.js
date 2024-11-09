@@ -1,138 +1,51 @@
-const literatureData = {
-    quotes: [
-        { textKey: "quotes.0", authorKey: "quotes.1" },
-        { textKey: "quotes.1", authorKey: "quotes.2" },
-        { textKey: "quotes.2", authorKey: "quotes.3" },
-      ],
-    writers: [
+
+const createWriterData = (nameKey) => {
+  return {
+    id: Math.floor(Math.random() * 1000), 
+    nameKey: `literatureData.writers.${nameKey}.name`,
+    shortBioKey: `literatureData.writers.${nameKey}.shortBio`,
+    fullBioKey: `literatureData.writers.${nameKey}.fullBio`,
+    imageUrl: `images/${nameKey}.jpeg`,
+    books: [
       {
-        id: 1,
-        nameKey: "literatureData.writers.darwish.name",
-        shortBioKey: "literatureData.writers.darwish.shortBio",
-        fullBioKey: "literatureData.writers.darwish.fullBio",
-        imageUrl: "images/darwish.jpeg",
-        books: [
-          {
-            titleKey: "literatureData.writers.darwish.book1.title",
-            descriptionKey: "literatureData.writers.darwish.book1.description",
-            detailedDescriptionKey: "literatureData.writers.darwish.book1.detailedDescription",
-            quotes: [
-              "literatureData.writers.darwish.book1.quote1",
-              "literatureData.writers.darwish.book1.quote2"
-            ]
-          }
+        titleKey: `literatureData.writers.${nameKey}.book1.title`,
+        detailedDescriptionKey: `literatureData.writers.${nameKey}.book1.description`,
+        quotes: [
+          `literatureData.writers.${nameKey}.book1.quote1`,
+          `literatureData.writers.${nameKey}.book1.quote2`
         ]
       },
       {
-        id: 2,
-        nameKey: "literatureData.writers.kanafani.name",
-        shortBioKey: "literatureData.writers.kanafani.shortBio",
-        fullBioKey: "literatureData.writers.kanafani.fullBio",
-        imageUrl: "images/kanafani.jpg",
-        books: [
-          {
-            titleKey: "literatureData.writers.kanafani.book1.title",
-            descriptionKey: "literatureData.writers.kanafani.book1.description",
-            detailedDescriptionKey: "literatureData.writers.kanafani.book1.detailedDescription",
-            quotes: [
-              "literatureData.writers.kanafani.book1.quote1",
-              "literatureData.writers.kanafani.book1.quote2"
-            ]
-          }
+        titleKey: `literatureData.writers.${nameKey}.book2.title`,
+        detailedDescriptionKey: `literatureData.writers.${nameKey}.book2.description`,
+        quotes: [
+          `literatureData.writers.${nameKey}.book2.quote1`,
+          `literatureData.writers.${nameKey}.book2.quote2`
         ]
       },
       {
-        id: 3,
-        nameKey: "literatureData.writers.darwish.name",
-        shortBioKey: "literatureData.writers.darwish.shortBio",
-        fullBioKey: "literatureData.writers.darwish.fullBio",
-        imageUrl: "images/darwish.jpeg",
-        books: [
-          {
-            titleKey: "literatureData.writers.darwish.book1.title",
-            descriptionKey: "literatureData.writers.darwish.book1.description",
-            detailedDescriptionKey: "literatureData.writers.darwish.book1.detailedDescription",
-            quotes: [
-              "literatureData.writers.darwish.book1.quote1",
-              "literatureData.writers.darwish.book1.quote2"
-            ]
-          }
-        ]
-      },
-      {
-        id: 4,
-        nameKey: "literatureData.writers.darwish.name",
-        shortBioKey: "literatureData.writers.darwish.shortBio",
-        fullBioKey: "literatureData.writers.darwish.fullBio",
-        imageUrl: "images/darwish.jpeg",
-        books: [
-          {
-            titleKey: "literatureData.writers.darwish.book1.title",
-            descriptionKey: "literatureData.writers.darwish.book1.description",
-            detailedDescriptionKey: "literatureData.writers.darwish.book1.detailedDescription",
-            quotes: [
-              "literatureData.writers.darwish.book1.quote1",
-              "literatureData.writers.darwish.book1.quote2"
-            ]
-          }
-        ]
-      },
-      {
-        id: 5,
-        nameKey: "literatureData.writers.darwish.name",
-        shortBioKey: "literatureData.writers.darwish.shortBio",
-        fullBioKey: "literatureData.writers.darwish.fullBio",
-        imageUrl: "images/darwish.jpeg",
-        books: [
-          {
-            titleKey: "literatureData.writers.darwish.book1.title",
-            descriptionKey: "literatureData.writers.darwish.book1.description",
-            detailedDescriptionKey: "literatureData.writers.darwish.book1.detailedDescription",
-            quotes: [
-              "literatureData.writers.darwish.book1.quote1",
-              "literatureData.writers.darwish.book1.quote2"
-            ]
-          }
-        ]
-      },
-      {
-        id: 6,
-        nameKey: "literatureData.writers.darwish.name",
-        shortBioKey: "literatureData.writers.darwish.shortBio",
-        fullBioKey: "literatureData.writers.darwish.fullBio",
-        imageUrl: "images/darwish.jpeg",
-        books: [
-          {
-            titleKey: "literatureData.writers.darwish.book1.title",
-            descriptionKey: "literatureData.writers.darwish.book1.description",
-            detailedDescriptionKey: "literatureData.writers.darwish.book1.detailedDescription",
-            quotes: [
-              "literatureData.writers.darwish.book1.quote1",
-              "literatureData.writers.darwish.book1.quote2"
-            ]
-          }
-        ]
-      },
-      {
-        id: 7,
-        nameKey: "literatureData.writers.darwish.name",
-        shortBioKey: "literatureData.writers.darwish.shortBio",
-        fullBioKey: "literatureData.writers.darwish.fullBio",
-        imageUrl: "images/darwish.jpeg",
-        books: [
-          {
-            titleKey: "literatureData.writers.darwish.book1.title",
-            descriptionKey: "literatureData.writers.darwish.book1.description",
-            detailedDescriptionKey: "literatureData.writers.darwish.book1.detailedDescription",
-            quotes: [
-              "literatureData.writers.darwish.book1.quote1",
-              "literatureData.writers.darwish.book1.quote2"
-            ]
-          }
+        titleKey: `literatureData.writers.${nameKey}.book3.title`,
+        detailedDescriptionKey: `literatureData.writers.${nameKey}.book3.description`,
+        quotes: [
+          `literatureData.writers.${nameKey}.book3.quote1`,
+          `literatureData.writers.${nameKey}.book3.quote2`
         ]
       }
     ]
   };
-  
-  export default literatureData;
-  
+};
+
+
+const writerNames = ["mureed","ibrahim","kanafani","hassan","jubra", "darwish","ibrahim_touqan","fadwa","tamim","suzan","samih","edward","sahar","abdul_rahim"];
+
+
+const literatureData = {
+  quotes: [
+    { textKey: "quotes.0", authorKey: "quotes.1" },
+    { textKey: "quotes.1", authorKey: "quotes.2" },
+    { textKey: "quotes.2", authorKey: "quotes.3" },
+  ],
+  writers: writerNames.map(nameKey => createWriterData(nameKey))
+};
+
+export default literatureData;

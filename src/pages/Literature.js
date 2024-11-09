@@ -6,7 +6,6 @@ import literatureData from '../data/literatureData';
 function Literature() {
   const { t } = useTranslation();
   const [selectedWriter, setSelectedWriter] = useState(null);
-  const [selectedBook, setSelectedBook] = useState(null);
   const [quoteIndex, setQuoteIndex] = useState(0);
 
   useEffect(() => {
@@ -18,11 +17,6 @@ function Literature() {
 
   const handleWriterClick = (writer) => {
     setSelectedWriter(writer);
-    setSelectedBook(null);
-  };
-
-  const handleBookClick = (book) => {
-    setSelectedBook(book);
   };
 
   return (
@@ -67,28 +61,21 @@ function Literature() {
             <h3>{t('literatureData.books')}</h3>
             <div className="books-shelf">
               {selectedWriter.books.map((book, index) => (
-                <div key={index} className="book-detail" onClick={() => handleBookClick(book)}>
+                <div key={index} className="book-detail">
                   <h4>{t(book.titleKey)}</h4>
-                  <p>{t(book.descriptionKey)}</p>
+                  <p>{t(book.detailedDescriptionKey)}</p>
+
+                  {/* Display Quotes */}
+                  <div className="book-quotes">
+                    {book.quotes.map((quote, quoteIndex) => (
+                      <blockquote key={quoteIndex} className="book-quote">
+                        {t(quote)}
+                      </blockquote>
+                    ))}
+                  </div>
                 </div>
               ))}
             </div>
-          </div>
-        </section>
-      )}
-
-      {selectedBook && (
-        <section className="book-details">
-          <button className="close-btn" onClick={() => setSelectedBook(null)}>
-           x
-          </button>
-          <div className="book-details-content">
-            <h2>{t(selectedBook.titleKey)}</h2>
-            <p>{t(selectedBook.detailedDescriptionKey)}</p>
-            <h3>{t('literatureData.quotesFromBook')}</h3>
-            {selectedBook.quotes.map((quote, index) => (
-              <blockquote key={index} className="quote-detail">{t(quote)}</blockquote>
-            ))}
           </div>
         </section>
       )}
