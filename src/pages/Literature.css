@@ -167,6 +167,7 @@
   max-width: 900px;
   margin: 40px auto;
   text-align: center;
+  position: relative;
 }
 
 .writer-details-content {
@@ -180,28 +181,30 @@
   color: #701616;
 }
 
+
 .writer-details .close-btn {
-  position: absolute; 
-  top: 10px; 
-  left: 10px; 
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background: #701616;
   color: #fff;
-  border: none;
   font-size: 1.5rem;
   cursor: pointer;
   border-radius: 50%;
   box-shadow: 0 2px 10px rgba(255, 107, 107, 0.4);
   transition: background 0.3s ease;
+  position: absolute;
+  top: 20px; 
+  left: 10%;
+  transform: translateX(-50%);
 }
 
 .writer-details .close-btn:hover {
-  background: #a83232; 
+  background: #a83232;
 }
+
 
 
 .writer-details-image {

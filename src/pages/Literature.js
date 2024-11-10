@@ -64,8 +64,6 @@ function Literature() {
                 <div key={index} className="book-detail">
                   <h4>{t(book.titleKey)}</h4>
                   <p>{t(book.detailedDescriptionKey)}</p>
-
-                  {/* Display Quotes */}
                   <div className="book-quotes">
                     {book.quotes.map((quote, quoteIndex) => (
                       <blockquote key={quoteIndex} className="book-quote">

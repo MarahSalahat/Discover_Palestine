@@ -182,281 +182,327 @@
   
   "writers": {
   "mureed": {
-    "name": "Mureed Barghouthi",
-    "shortBio": "Palestinian poet and novelist known for his reflections on love and exile.",
-    "fullBio": "Mureed Barghouthi is a prominent Palestinian writer whose works explore the themes of exile and Palestinian identity.",
-    "book1": {
-      "title": "I Saw Ramallah",
-      "description": "Describes the experience of returning to Palestine after years in exile.",
-      "quote1": "To return after absence is to see what remains of the place with new eyes."
-    },
-    "book2": {
-      "title": "Midnight",
-      "description": "Poems exploring love and loss in the context of displacement.",
-      "quote1": "Every midnight brings with it the memories I tried to bury."
-    },
-    "book3": {
-      "title": "At the Edge of the Void",
-      "description": "A deep dive into the emotional landscape of exile and separation.",
-      "quote1": "Standing at the edge, I realize the journey never truly ends."
-    }
-  },
+      "name": "Mourid Barghouti",
+      "shortBio": "A Palestinian poet and novelist known for his reflections on love and exile.",
+      "fullBio": "Mourid Barghouti was born in a Palestinian village near Ramallah in 1944. His first exile began in 1967 while studying in Cairo, when the West Bank became inaccessible to him. In 1976, he was expelled from Egypt, and later from Lebanon and Jordan. During his time in Egypt, he left behind his wife, Radwa Ashour, a well-known writer and translator, and their infant son, Tamim. Exile deeply influenced his poetry, which often addresses the struggles of refugees. Barghouti believes that poetry, even visionary poetry, can speak to people under oppression. His poetry is characterized by its avoidance of rhetoric, opting instead for clear, visual language. This style is evident in his collections *Poems of the Pavement* (1980) and *Midnight and Other Poems* (2008), where he uses irony and humor without propaganda. His words reflect a profound, simple truth, as seen in his line, 'Silence said: truth needs no eloquence.' In 1998, Barghouti revisited Ramallah with his son, an experience he recorded in his book *I Saw Ramallah*. He now resides once again in Cairo.",
+      "book1": {
+        "title": "I Saw Ramallah",
+        "description": "Describes the experience of returning to Palestine after years of exile.",
+        "quote1": "To return after absence is to see what remains of the place with new eyes.",
+        "quote2": "Can the earth bear the cruelty of a mother making her coffee alone on a morning of exile?"
+      },
+      "book2": {
+        "title": "Midnight",
+        "description": "Poems that explore love and loss in the context of displacement.",
+        "quote1": "Every midnight carries with it the memories I tried to bury.",
+        "quote2": "It is as if his gaze commands the ruins to become a thriving home once again."
+      },
+      "book3": {
+        "title": "I Was Born There, I Was Born Here",
+        "description": "A memoir exploring Barghouti’s life with his son Tamim, filled with reflections on identity, exile, and hope.",
+        "quote1": "To be born twice means that identity is not fixed but a journey that evolves over time.",
+        "quote2": "The father writes memories of exile, and the son writes the homeland as he imagines it."
+      }
+},
   "ibrahim": {
     "name": "Ibrahim Nasrallah",
-    "shortBio": "Palestinian author and novelist known for works on history and the Palestinian cause.",
-    "fullBio": "Ibrahim Nasrallah is a renowned Palestinian writer, whose novels highlight Palestinian history and struggles.",
+    "shortBio": "A Palestinian author, poet, and novelist known for his powerful explorations of Palestinian history and identity.",
+    "fullBio": "Ibrahim Nasrallah is a celebrated Palestinian writer whose novels and poetry delve into themes of identity, resilience, and the Palestinian cause. Born in 1954 to Palestinian parents in a refugee camp in Jordan, his experiences have profoundly shaped his literary voice. Nasrallah’s works capture the depth of Palestinian history and the ongoing struggles for justice and recognition, often blending realism with elements of folklore, dystopia, and metaphor. His writing reflects a deep-seated commitment to portraying the emotional and historical experiences of his people, as well as a profound belief in human resilience. He is widely recognized for his unique narrative style, which brings to life the nuanced and often painful legacy of exile and the enduring spirit of his homeland.",
     "book1": {
       "title": "Time of White Horses",
-      "description": "A historical novel about the Palestinian Nakba (Catastrophe).",
-      "quote1": "Every scent of this land reminds me of the dream that was never fulfilled."
+      "description": "A sweeping historical novel depicting Palestinian life across three generations, leading up to the Nakba (Catastrophe).",
+      "quote1": "Every scent of this land reminds me of the dream that was never fulfilled.",
+      "quote2": "The land holds stories even the oldest souls cannot fully tell."
     },
     "book2": {
       "title": "The Second War of the Dog",
-      "description": "A dystopian novel exploring the impact of conflict on human nature.",
-      "quote1": "War changes us, but what remains unscathed is our longing."
+      "description": "A dystopian novel that examines the destructive effects of conflict and the transformation of human nature under oppression.",
+      "quote1": "War changes us, but what remains unscathed is our longing.",
+      "quote2": "In a world bent on division, the deepest battle is to preserve one’s humanity."
     },
     "book3": {
       "title": "Inside the Night",
-      "description": "A collection of stories on resilience amidst turmoil.",
-      "quote1": "In the darkest of nights, even the smallest light is hope."
+      "description": "A collection of stories capturing resilience and the search for hope amidst the turbulence of exile and conflict.",
+      "quote1": "In the darkest of nights, even the smallest light is hope.",
+      "quote2": "Every story told was an act of survival, a defiance against silence."
     }
-  },
+},
+
   "kanafani": {
     "name": "Ghassan Kanafani",
-    "shortBio": "Renowned Palestinian novelist and short story writer focusing on refugee issues and resistance.",
-    "fullBio": "Ghassan Kanafani is one of the foremost Palestinian writers who vividly portrayed the plight of Palestinian refugees.",
+    "shortBio": "Renowned Palestinian novelist, journalist, and short story writer known for his focus on refugee struggles and the theme of resistance.",
+    "fullBio": "Ghassan Kanafani, born in 1936, was a prominent Palestinian writer and a passionate advocate for the Palestinian cause. His works shed light on the hardships faced by Palestinian refugees and the broader struggles of his people under occupation. A member of the Popular Front for the Liberation of Palestine, Kanafani used literature as a means of resistance, giving voice to the dispossessed. Tragically assassinated in 1972, his legacy endures through his impactful narratives that explore themes of exile, identity, and resilience, often illustrating the human cost of displacement and the profound longing for return and justice.",
     "book1": {
       "title": "Men in the Sun",
-      "description": "Depicts the suffering of Palestinians seeking better lives in exile.",
-      "quote1": "One cannot live in constant fear."
+      "description": "A powerful novel depicting the suffering and desperation of Palestinian refugees seeking new lives, only to face harrowing challenges.",
+      "quote1": "One cannot live in constant fear.",
+      "quote2": "Why didn’t you knock on the sides of the tank?"
     },
     "book2": {
       "title": "Returning to Haifa",
-      "description": "A story about loss, memory, and the impact of occupation.",
-      "quote1": "Returning is never as simple as just coming back."
+      "description": "A story that delves into the deep scars of loss, identity, and the painful complexities of return under occupation.",
+      "quote1": "Returning is never as simple as just coming back.",
+      "quote2": "Memories survive the ruins, but so does the pain of their reality."
     },
     "book3": {
       "title": "All That’s Left to You",
-      "description": "Explores themes of love, betrayal, and the resilience of the human spirit.",
-      "quote1": "In the face of loss, all that’s left is to hold on."
+      "description": "A novella exploring love, betrayal, and the resilience of the human spirit amidst the relentless hardships of exile.",
+      "quote1": "In the face of loss, all that’s left is to hold on.",
+      "quote2": "Every loss leaves behind something, even if it’s only the strength to endure."
     }
-  },
+},
+
   "hassan": {
     "name": "Hassan Sami Yousef",
-    "shortBio": "Palestinian writer and novelist known for screenwriting and fiction.",
-    "fullBio": "Hassan Sami Yousef is a talented Palestinian writer, creating stories that explore Palestinian society and life.",
+    "shortBio": "Palestinian writer and novelist known for his contributions to literature and screenwriting, often reflecting the nuances of Palestinian society and resilience.",
+    "fullBio": "Hassan Sami Yousef is a celebrated Palestinian writer and screenwriter, whose works vividly depict the everyday struggles, emotions, and resilience within Palestinian society. Through his novels and screenplays, Yousef delves into the complexity of human relationships, love, and the enduring effects of exile and conflict on identity and memory.",
     "book1": {
       "title": "A Love Story in War",
-      "description": "A novel that explores love during conflict.",
-      "quote1": "Love during war is a challenge, yet it fuels resilience."
+      "description": "A moving novel exploring the fragility and strength of love amidst the brutal realities of conflict.",
+      "quote1": "Love during war is a test, but it becomes the very heartbeat of resilience.",
+      "quote2": "In a world filled with destruction, love remains the one thing that refuses to die."
     },
     "book2": {
       "title": "Days of Hatred",
-      "description": "Narrates the struggles of ordinary people amidst political unrest.",
-      "quote1": "Hatred consumes, but hope sustains."
+      "description": "A powerful narrative about ordinary people’s endurance and hope amidst political turmoil and tension.",
+      "quote1": "Hatred may burn, but hope fuels the heart.",
+      "quote2": "Even in the darkest of days, there’s always a flicker of light that refuses to be extinguished."
     },
     "book3": {
       "title": "Echoes of Exile",
-      "description": "A journey through exile and the memories it leaves behind.",
-      "quote1": "Exile is not just distance, it’s a fracture within the self."
+      "description": "A reflective journey through the pains of exile, capturing the enduring impact of memories and the longing for home.",
+      "quote1": "Exile is not just distance—it’s a fracture that lingers within the heart and soul.",
+      "quote2": "We are never truly far from home; it stays with us in every thought, every dream."
     }
-  },
+},
+
   "jubra": {
     "name": "Jabra Ibrahim Jabra",
     "shortBio": "Palestinian writer and poet, focusing on refugee experiences and Palestinian life.",
-    "fullBio": "Jabra Ibrahim Jabra was a celebrated Palestinian writer and intellectual, addressing the themes of displacement and identity.",
+    "fullBio": "Jabra Ibrahim Jabra was a celebrated Palestinian writer and intellectual, addressing themes of displacement, identity, and the refugee experience.",
     "book1": {
       "title": "In Search of Walid Masoud",
-      "description": "A novel about identity and displacement in the diaspora.",
-      "quote1": "The pain a Palestinian carries can never be erased."
+      "description": "A novel exploring identity and displacement in the diaspora.",
+      "quote1": "The pain a Palestinian carries can never be erased.",
+      "quote2": "We search for home, but it is always just out of reach."
     },
     "book2": {
       "title": "Hunters in a Narrow Street",
-      "description": "Explores the lives of exiled Palestinians in a changing society.",
-      "quote1": "The street is narrow, but our spirits are wide."
+      "description": "Examines the lives of exiled Palestinians in a rapidly changing society.",
+      "quote1": "The street is narrow, but our spirits are wide.",
+      "quote2": "Exile is not just about being away from home; it is being torn between two worlds."
     },
     "book3": {
       "title": "The Ship",
-      "description": "Depicts the journey and struggles of refugees.",
-      "quote1": "In every journey lies the echo of what we left behind."
+      "description": "Depicts the journey and struggles of refugees searching for a new life.",
+      "quote1": "In every journey lies the echo of what we left behind.",
+      "quote2": "The sea can carry us, but it cannot wash away our memories."
     }
   },
   "darwish": {
     "name": "Mahmoud Darwish",
     "shortBio": "Celebrated Palestinian poet known for his powerful poems on identity and exile.",
-    "fullBio": "Mahmoud Darwish is widely regarded as the national poet of Palestine, his work capturing the Palestinian struggle and the essence of exile.",
+    "fullBio": "Mahmoud Darwish is widely regarded as the national poet of Palestine, his work capturing the Palestinian struggle, love for the homeland, and the essence of exile.",
     "book1": {
       "title": "Unfortunately, It Was Paradise",
-      "description": "A collection of poems that explore themes of exile and identity.",
-      "quote1": "In my homeland, my only refuge is words."
+      "description": "A collection of poems that explore themes of exile, loss, and the search for identity.",
+      "quote1": "In my homeland, my only refuge is words.",
+      "quote2": "To be born in exile is to be born twice, once in the land and once in the memory of it."
     },
     "book2": {
       "title": "The Butterfly's Burden",
-      "description": "A lyrical exploration of love, loss, and homeland.",
-      "quote1": "I was born to love all people, but war shattered my heart."
+      "description": "A lyrical exploration of love, loss, and the enduring pull of the homeland.",
+      "quote1": "I was born to love all people, but war shattered my heart.",
+      "quote2": "Love, like our land, can be torn apart but never truly forgotten."
     },
     "book3": {
       "title": "Mural",
-      "description": "A reflection on mortality, exile, and the resilience of the spirit.",
-      "quote1": "In every exile, we are reborn to live our history anew."
+      "description": "A reflection on mortality, exile, and the resilience of the Palestinian spirit.",
+      "quote1": "In every exile, we are reborn to live our history anew.",
+      "quote2": "What is lost in exile is the essence of self; yet it is in exile we rediscover our strength."
     }
   },
   "ibrahim_touqan": {
     "name": "Ibrahim Touqan",
     "shortBio": "Palestinian poet known for nationalistic themes and lyrical expression.",
-    "fullBio": "Ibrahim Touqan was a leading Palestinian poet, remembered for his nationalistic poetry.",
+    "fullBio": "Ibrahim Touqan was a leading Palestinian poet, celebrated for his nationalistic poems that evoke pride and resilience in the face of adversity.",
     "book1": {
       "title": "The Defiant One",
-      "description": "A collection of poems reflecting his patriotism and hope.",
-      "quote1": "My homeland, my soul's only song."
+      "description": "A collection of poems reflecting his patriotism, hope, and unwavering spirit.",
+      "quote1": "My homeland, my soul's only song.",
+      "quote2": "In the face of injustice, the heart beats only for the land."
     },
     "book2": {
       "title": "Voices of Resistance",
-      "description": "Nationalistic poems that call for resilience and hope.",
-      "quote1": "Through poetry, we keep our spirits alive."
+      "description": "Nationalistic poems calling for resilience, unity, and a future of hope.",
+      "quote1": "Through poetry, we keep our spirits alive.",
+      "quote2": "Resistance is not just an act; it is a way of being."
     },
     "book3": {
       "title": "The Exiled Heart",
-      "description": "Explores themes of exile and patriotism.",
-      "quote1": "Even in exile, my heart beats for home."
+      "description": "Explores themes of exile, patriotism, and the deep connection to the homeland.",
+      "quote1": "Even in exile, my heart beats for home.",
+      "quote2": "Exile is a pain that echoes in the soul, yet it is a pain we carry with pride."
     }
   },
   "fadwa": {
     "name": "Fadwa Touqan",
     "shortBio": "Palestinian poet known for exploring themes of resistance and resilience.",
-    "fullBio": "Fadwa Touqan, also known as the 'Poet of Palestine,' is famous for her powerful poetry on Palestinian identity.",
+    "fullBio": "Fadwa Touqan, also known as the 'Poet of Palestine,' is renowned for her powerful poetry on Palestinian identity, struggle, and the unyielding spirit of her people.",
     "book1": {
       "title": "Mountainous Journey",
-      "description": "An autobiography that tells the story of her life and struggles.",
-      "quote1": "I walk alone, but my voice carries thousands."
+      "description": "An autobiography that narrates the story of her life, struggles, and growth.",
+      "quote1": "I walk alone, but my voice carries thousands.",
+      "quote2": "In the mountains, I find strength; in the valleys, I find my voice."
     },
     "book2": {
       "title": "A River Dies of Thirst",
-      "description": "A collection of prose poetry focusing on love, loss, and resilience.",
-      "quote1": "A river of sorrow flows through my veins."
+      "description": "A collection of prose poetry focusing on love, loss, and the resilience of the human spirit.",
+      "quote1": "A river of sorrow flows through my veins.",
+      "quote2": "When the river dries, we drink from the wells of memory."
     },
     "book3": {
       "title": "The Eternal Face of Palestine",
-      "description": "A poetic tribute to Palestine and its people.",
-      "quote1": "Palestine, eternal in every heart that fights for it."
+      "description": "A poetic tribute to Palestine and its people, immortalizing their struggle and resilience.",
+      "quote1": "Palestine, eternal in every heart that fights for it.",
+      "quote2": "The face of Palestine is timeless, etched into the hearts of its children."
     }
   },
   "tamim": {
     "name": "Tamim Barghouthi",
-    "shortBio": "Palestinian-Egyptian poet known for his strong voice on social and political issues.",
-    "fullBio": "Tamim Barghouthi is a poet who combines history, identity, and political commentary in his work.",
+    "shortBio": "Palestinian-Egyptian poet known for his powerful voice on social and political issues.",
+    "fullBio": "Tamim Barghouthi is a poet who blends history, identity, and political commentary in his work, shedding light on Palestinian experiences and struggles.",
     "book1": {
       "title": "In Jerusalem",
-      "description": "A long poem describing the experience of visiting Jerusalem.",
-      "quote1": "Jerusalem, the birthplace of memory, where I seek my soul."
+      "description": "A long poem that describes the experience of visiting Jerusalem, filled with nostalgia and political reflections.",
+      "quote1": "Jerusalem, the birthplace of memory, where I seek my soul.",
+      "quote2": "In Jerusalem, I find both peace and the deepest longing."
     },
     "book2": {
       "title": "The In-Between",
-      "description": "Explores identity and the complexities of living between cultures.",
-      "quote1": "Between two lands, my soul searches for its own."
+      "description": "A collection of poems exploring identity, belonging, and the complexities of living between cultures.",
+      "quote1": "Between two lands, my soul searches for its own.",
+      "quote2": "Identity is not a fixed place, but a journey between worlds."
     }
+  },
+  "suzan": {
+    "name": "Suzan Abu alHawa",
+    "shortBio": "Palestinian poet and writer known for her feminist perspective and social commentary.",
+    "fullBio": "Suzan Abu alHawa is a Palestinian writer and feminist poet who explores issues of gender, identity, and social justice through her work.",
+    "book1": {
+      "title": "The Weight of the Sky",
+      "description": "A collection of poems about love, loss, and the Palestinian struggle.",
+      "quote1": "The sky above us is heavy with dreams and despair.",
+      "quote2": "The weight of the sky is nothing compared to the burden of history."
+    },
+    "book2": {
+      "title": "The Woman at the Window",
+      "description": "A novel about a woman’s journey of self-discovery, resilience, and the quest for justice.",
+      "quote1": "Behind every window, a story unfolds.",
+      "quote2": "Through the window, I see the world as it should be, not as it is."
+    },
+    "book3": {
+      "title": "The Silence of the Night",
+      "description": "A collection of short stories about love, relationships, and the complexities of the human condition.",
+      "quote1": "In the silence, the heart speaks its truth.",
+      "quote2": "The night holds secrets, but the heart cannot keep them forever."
+    }
+  },
+  "samih": {
+    "name": "Samih Qasem",
+    "shortBio": "Palestinian poet known for his political and social commentary.",
+    "fullBio": "Samih Qasem is a prominent Palestinian poet whose work addresses themes of injustice, resistance, and the struggles of the Palestinian people.",
+    "book1": {
+      "title": "The Wound of the Homeland",
+      "description": "A collection of poems about the Palestinian struggle, exile, and the longing for freedom.",
+      "quote1": "The wound of the homeland bleeds eternally.",
+      "quote2": "A wound that never heals is the wound of the homeland."
+    },
+    "book2": {
+      "title": "The Voice of the People",
+      "description": "A collection of poems that speak to the resilience and defiance of the Palestinian people.",
+      "quote1": "Our voices rise, a chorus of defiance.",
+      "quote2": "In our voices, there is a revolution waiting to be born."
+    },
+    "book3": {
+      "title": "The Exile's Song",
+      "description": "A collection of poems about the pain of exile and the quest for justice.",
+      "quote1": "Exile is a song we sing every day.",
+      "quote2": "In exile, our hearts find new ways to break."
+    }
+  
+},
 
-      },
-    "suzan": {
-      "name": "Suzan Abu alHawa",
-      "shortBio": "Palestinian poet and writer known for her feminist perspective and social commentary.",
-      "fullBio": "Suzan Abu Hawla is a leading Palestinian feminist writer who addresses issues of gender, identity, and social justice.",
-      "book1": {
-        "title": "The Weight of the Sky",
-        "description": "A collection of poems about love, loss, and the Palestinian struggle.",
-        "quote1": "The sky above us is heavy with dreams and despair."
-      },
-      "book2": {
-        "title": "The Woman at the Window",
-        "description": "A novel about a woman's journey of self-discovery and resilience.",
-        "quote1": "Behind every window, a story unfolds."
-      },
-      "book3": {
-        "title": "The Silence of the Night",
-        "description": "A collection of short stories about the complexities of love and relationships.",
-        "quote1": "In the silence, the heart speaks its truth."
-      }
-    },
-    "samih": {
-      "name": "Samih Qasem",
-      "shortBio": "Palestinian poet known for his political and social commentary.",
-      "fullBio": "Samir Qasem is a prominent Palestinian poet who uses his work to address issues of injustice and oppression.",
-      "book1": {
-        "title": "The Wound of the Homeland",
-        "description": "A collection of poems about the Palestinian struggle and the longing for freedom.",
-        "quote1": "The wound of the homeland bleeds eternally."
-      },
-      "book2": {
-        "title": "The Voice of the People",
-        "description": "A collection of poems that give voice to the Palestinian people.",
-        "quote1": "Our voices rise, a chorus of defiance."
-      },
-      "book3": {
-        "title": "The Exile's Lament",
-        "description": "A collection of poems about the pain of exile and the longing for home.",
-        "quote1": "In exile, the soul yearns for its roots."
-      }
-    },
-    "edward": {
-      "name": "Edward Saied",
-      "shortBio": "Palestinian-American literary theorist and public intellectual.",
-      "fullBio": "Edward Said was a renowned Palestinian-American scholar who explored themes of culture, politics, and identity.",
-      "book1": {
-        "title": "Orientalism",
-        "description": "A critical analysis of Western representations of the East.",
-        "quote1": "The Orient is created by the West."
-      },
-      "book2": {
-        "title": "Culture and Imperialism",
-        "description": "An exploration of the relationship between culture and power.",
-        "quote1": "Culture is the site of both domination and resistance."
-      },
-      "book3": {
-        "title": "Out of Place",
-        "description": "A memoir about identity, exile, and belonging.",
-        "quote1": "To be out of place is to be always becoming."
-      }
-    },
-    "sahar": {
-      "name": "sahar khalifa",
-      "shortBio": "Palestinian novelist and short story writer known for her feminist perspective.",
-      "fullBio": "Saher Khalifa is a leading Palestinian feminist writer who explores themes of gender, identity, and social change.",
-      "book1": {
-        "title": "The Daughters of Emily",
-        "description": "A novel about the lives of Palestinian women.",
-        "quote1": "The daughters of Emily carry the weight of history."
-      },
-      "book2": {
-        "title": "The Lotus and the Dog",
-        "description": "A collection of short stories about love, loss, and the human condition.",
-        "quote1": "The lotus blooms in the mud, and the dog remains loyal."
-      },
-      "book3": {
-        "title": "The Silence and the Roar",
-        "description": "A novel about the Palestinian struggle for freedom.",
-        "quote1": "In the silence, the roar of resistance grows louder."
-      }
-    },
-    "abdul_rahim": {
-      "name": "Abdulrahim Mahmoud",
-      "shortBio": "Palestinian poet and writer known for his realistic and critical works.",
-      "fullBio": "Abdul Rahim Mahmoud was a prominent Palestinian writer who explored social and political themes in his poetry and prose.",
-      "book1": {
-        "title": "The Earth and the People",
-        "description": "A collection of poems about the Palestinian land and its people.",
-        "quote1": "The earth weeps, and the people yearn."
-      },
-      "book2": {
-        "title": "The Silence of the Night",
-        "description": "A novel about the impact of war on individuals and society.",
-        "quote1": "In the silence, the echoes of war linger."
-      },
-      "book3": {
-        "title": "The Lost Generation",
-        "description": "A collection of short stories about the struggles of young Palestinians.",
-        "quote1": "The future is uncertain, but hope remains."
-      }
-    }
+"edward": {
+  "name": "Edward Saied",
+  "shortBio": "Palestinian-American literary theorist and public intellectual.",
+  "fullBio": "Edward Said was a groundbreaking Palestinian-American scholar and intellectual whose works critiqued Western ideologies, focusing on the construction of the 'Orient' and its impact on politics, culture, and identity. His pioneering analysis of colonialism and cultural imperialism reshaped discourse in postcolonial studies, challenging the assumptions of Western dominance and advocating for the voices of the marginalized.",
+  "book1": {
+    "title": "Orientalism",
+    "description": "A critical analysis of Western representations of the East.",
+    "quote1": "The Orient is created by the West.",
+    "quote2": "Orientalism is not a mere imitation of the West but a projection of the West's own fantasies."
+    
+  },
+  "book2": {
+    "title": "Culture and Imperialism",
+    "description": "An exploration of the relationship between culture and power.",
+    "quote1": "Culture is the site of both domination and resistance.",
+    "quote2": "Imperialism has always been a cultural project, more than a political or economic one."
+  },
+  "book3": {
+    "title": "Out of Place",
+    "description": "A memoir about identity, exile, and belonging.",
+    "quote1": "To be out of place is to be always becoming.",
+    "quote2": "Exile is not just a physical state but a condition of the mind, a constant search for belonging."
+  }
+},
+"sahar": {
+  "name": "Sahar Khalifa",
+  "shortBio": "Palestinian novelist and short story writer known for her feminist perspective.",
+  "fullBio": "Sahar Khalifa is a leading Palestinian writer whose works have become crucial in representing the struggles of Palestinian women. She focuses on the intersection of gender, identity, and societal change, offering poignant insights into the lives of women in the context of political conflict. Her storytelling blends the personal and the political, shedding light on the complex realities faced by Palestinian women.",
+  "book1": {
+    "title": "The Daughters of Emily",
+    "description": "A novel about the lives of Palestinian women.",
+    "quote1": "The daughters of Emily carry the weight of history.",
+    "quote2": "In the silence of the land, women's voices echo the loudest."
+  },
+  "book2": {
+    "title": "The Lotus and the Dog",
+    "description": "A collection of short stories about love, loss, and the human condition.",
+    "quote1": "The lotus blooms in the mud, and the dog remains loyal.",
+    "quote2": "In every tragedy, there is beauty to be found, just as in every love there is pain."
+  },
+  "book3": {
+    "title": "The Silence and the Roar",
+    "description": "A novel about the Palestinian struggle for freedom.",
+    "quote1": "In the silence, the roar of resistance grows louder.",
+    "quote2": "The roar of freedom cannot be silenced, even in the darkest of times."
+  }
+},
+"abdul_rahim": {
+  "name": "Abdulrahim Mahmoud",
+  "shortBio": "Palestinian poet and writer known for his realistic and critical works.",
+  "fullBio": "Abdulrahim Mahmoud was a pioneering Palestinian poet and writer whose works often focused on the harsh realities of war, displacement, and the perseverance of his people. He expressed the suffering of the Palestinian population through vivid imagery and sharp critique, emphasizing the beauty of the land and the steadfastness of its people in the face of adversity. Mahmoud's work continues to resonate deeply in the context of Palestinian identity and resistance.",
+  "book1": {
+    "title": "The Earth and the People",
+    "description": "A collection of poems about the Palestinian land and its people.",
+    "quote1": "The earth weeps, and the people yearn.",
+    "quote2": "The land will never forget the footsteps of those who have fought for it."
+  },
+  "book2": {
+    "title": "The Silence of the Night",
+    "description": "A novel about the impact of war on individuals and society.",
+    "quote1": "In the silence, the echoes of war linger.",
+    "quote2": "War destroys the body, but silence destroys the soul."
+  },
+  "book3": {
+    "title": "The Lost Generation",
+    "description": "A collection of short stories about the struggles of young Palestinians.",
+    "quote1": "The future is uncertain, but hope remains.",
+    "quote2": "We are the children of the ruins, yet we still dream of a future."
+  }
+}
 
   }
   }
