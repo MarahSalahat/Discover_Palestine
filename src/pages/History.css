@@ -1,15 +1,15 @@
-
+/* Base Styles for Cross-Platform Compatibility */
 .history-map-container {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial, sans-serif;
   color: #333;
-  padding: clamp(20px, 5vw, 40px) clamp(10px, 5vw, 20px); 
+  padding: 40px 20px;
   background-color: #f0f0f0;
 }
 
 .history-map-container h1 {
   text-align: center;
-  margin-bottom: clamp(20px, 5vh, 40px);
-  font-size: clamp(1.8em, 5vw, 2.5em); 
+  margin-bottom: 40px;
+  font-size: 2.5em;
   color: #00573d;
 }
 
@@ -18,7 +18,7 @@
   position: relative;
   max-width: 800px;
   margin: 0 auto;
-  padding: clamp(10px, 3vw, 20px) 0;
+  padding: 20px 0;
 }
 
 .timeline::before {
@@ -35,7 +35,7 @@
 .timeline-item {
   position: relative;
   width: 50%;
-  padding: clamp(15px, 3vw, 30px) 0;
+  padding: 30px 0;
   box-sizing: border-box;
 }
 
@@ -50,8 +50,8 @@
 /* Timeline Point */
 .timeline-point {
   position: absolute;
-  width: clamp(12px, 3vw, 20px); 
-  height: clamp(12px, 3vw, 20px);
+  width: 20px;
+  height: 20px;
   background-color: #701616;
   border: 3px solid #00573d;
   border-radius: 50%;
@@ -76,7 +76,7 @@
   top: 10px;
   font-weight: bold;
   color: #004d33;
-  font-size: clamp(1em, 2.5vw, 1.1em); 
+  font-size: 1.1em;
   transform: translateY(-50%);
 }
 
@@ -88,79 +88,31 @@
   left: 30px;
 }
 
-/* Responsive Layouts */
-@media screen and (max-width: 1024px) {
+/* Mobile Fix for Centering */
+@media screen and (max-width: 480px) {
+
   .timeline::before {
-      left: 10px;
+    left: 50%;
+    transform: translateX(-50%);
   }
+
 
   .timeline-item {
-      width: 100%;
-      left: 0 !important;
-      padding: clamp(10px, 2vw, 20px) 0; 
-      margin-left: clamp(15px, 3vw, 30px);
+    width: 100%;
+    left: 0;
+    text-align: center;
   }
 
+ 
   .timeline-point {
-      left: 0;
-      top: 0;
-      margin-top: 15px;
-      width: clamp(10px, 2vw, 15px);
-      height: clamp(10px, 2vw, 15px);
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .timeline-title {
-      font-size: clamp(0.9em, 2.5vw, 1em);
-      top: 20px;
-      left: clamp(20px, 3vw, 40px);
-      text-align: left;
+    position: relative;
+    margin-top: 10px;
+    left: auto;
+    text-align: center;
   }
-}
-
-@media screen and (max-width: 480px) {
-  .timeline {
-      padding: 0 clamp(5px, 3vw, 10px);
-  }
-
-  .timeline-point {
-      width: clamp(8px, 2vw, 12px);
-      height: clamp(8px, 2vw, 12px);
-  }
-
-  .timeline-title {
-      font-size: clamp(0.8em, 3vw, 0.9em);
-      left: clamp(15px, 3vw, 35px);
-  }
-}
-
-
-.timeline-point {
-  touch-action: manipulation; 
-}
-
-.timeline-point:hover,
-.timeline-point:focus {
-  outline: none;
-  transform: scale(1.2);
-}
-
-/* Links */
-.info-link {
-  display: block;
-  margin-top: 10px;
-  color: #007bff;
-  text-decoration: underline;
-  transition: color 0.3s;
-}
-
-.info-link:hover,
-.info-link:focus {
-  color: #0056b3;
-}
-
-/* High-Resolution Text Clarity */
-body, .history-map-container, .timeline-title {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
 }
