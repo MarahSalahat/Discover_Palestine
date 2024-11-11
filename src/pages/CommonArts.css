@@ -1,28 +1,30 @@
-/* CommonArtsPage.css */
+:root {
+  --main-bg-color: #f5f7fa;
+  --text-color: #0f0000;
+  --accent-color: #701616;
+  --card-bg-color: #ffffff;
+  --description-color: #4a4a4a;
+}
 
 .common-arts-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2.5rem;
-  background: #f5f7fa;
+  background: var(--main-bg-color);
   font-family: 'Arial', sans-serif;
 }
 
-/* Add fallback for fonts */
 .common-arts-header {
   font-size: 3rem;
-  color: #2f2f2f;
+  color: var(--text-color);
   margin-bottom: 2rem;
   text-align: center;
   font-weight: 700;
   letter-spacing: 1.5px;
-  font-family: 'Arial', Helvetica, sans-serif;
 }
 
-/* Responsive grid with vendor prefixes */
 .common-arts-grid {
-  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
@@ -30,51 +32,39 @@
   max-width: 1300px;
 }
 
-/* Cross-browser compatibility for card transitions */
 .common-arts-card {
-  background-color: #ffffff;
+  background-color: var(--card-bg-color);
   border-radius: 12px;
   border-style: outset;
-  border-color: #701616;
+  border-color: var(--accent-color);
   overflow: hidden;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
   position: relative;
-  overflow: hidden;
-  -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
-  -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .common-arts-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25), 0 4px 8px rgba(0, 0, 0, 0.1);
-  -webkit-transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
 }
 
-/* Image compatibility for scaling on hover */
 .common-arts-video {
   width: 100%;
-  height: 200px;
+  height: 25vh; 
   object-fit: cover;
-  border-bottom: 6px solid #701616;
+  border-bottom: 6px solid var(--accent-color);
   transition: transform 0.3s ease;
-  -webkit-transition: transform 0.3s ease;
-  -moz-transition: transform 0.3s ease;
 }
 
 .common-arts-card:hover .common-arts-video {
   transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
 }
 
-/* Adjust text styles for readability and compatibility */
 .common-arts-card-title {
   font-size: 1.5rem;
-  color: #701616;
+  color: var(--accent-color);
   padding: 1.25rem 1rem 0.5rem;
   text-align: center;
   font-weight: bold;
@@ -85,22 +75,17 @@
 .common-arts-card-description {
   padding: 0.75rem 1rem 1.5rem;
   font-size: 1rem;
-  color: #4a4a4a;
+  color: var(--description-color);
   line-height: 1.6;
   text-align: center;
-  font-family: 'Arial', sans-serif;
 }
 
-/* Subtle glow effect with compatibility adjustments */
 .common-arts-card:hover::before {
   content: '';
   position: absolute;
   inset: 0;
   background: rgba(107, 63, 63, 0.1);
   border-radius: 12px;
-  z-index: -1;
   transition: opacity 0.3s ease;
   opacity: 1;
-  -webkit-transition: opacity 0.3s ease;
-  -moz-transition: opacity 0.3s ease;
 }
