@@ -29,6 +29,11 @@
 - [Sass](https://sass-lang.com/) – CSS preprocessor for advanced styling
 - [Framer Motion](https://www.framer.com/motion/) – For smooth animations
 
+
+## 📷 Preview
+   https://discover-palestine.netlify.app/
+
+
 ## 📁 Folder Structure
 
 ```bash
@@ -44,5 +49,3 @@
 ├── package.json
 └── README.md
 
-## 📷 Preview
-   https://discover-palestine.netlify.app/
