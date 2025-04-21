@@ -33,19 +33,3 @@
 ## 📷 Preview
    https://discover-palestine.netlify.app/
 
-
-## 📁 Folder Structure
-
-```bash
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   ├── App.jsx
-│   └── index.js
-├── .gitignore
-├── package.json
-└── README.md
-
